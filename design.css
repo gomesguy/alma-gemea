@@ -1,0 +1,38 @@
+body{
+    background:  linear-gradient(45deg, #fa0142, #fb395f, #f9537d, #f6699c);
+    font: normal 16pt   Arial; 
+}
+
+header{
+    color: rgb(253, 170, 203);
+    text-align: center; /* centralizar na pagina */
+
+}
+
+section{
+    background: rgb(254, 148, 190);
+    border-radius: 9px;  /* arrebondar as bordas */
+    padding: 15px; /* espaçamento */
+    width: 500px; /* definir largura fixa */
+    margin: auto;  /* centralizar na pagina */
+    box-shadow: 4px 4px 9px rgb(92, 91, 91);
+}
+
+footer{
+    color: rgba(31, 31, 31, 0.63);
+    font-style: italic; /* definir formatação, nesse caso itálico */
+    text-align: center; /* centralizar na pagina */
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .center-image {
+    display: block;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100vh; /* Limitar a altura da imagem à altura da janela de visualização */
+}
